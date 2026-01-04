@@ -17,7 +17,7 @@ public class FlowControll {
         do{
             System.out.println("numarul: " + number);
             number++;
-        } while (number <= 10):
+        } while (number <= 10);
     }
 
 

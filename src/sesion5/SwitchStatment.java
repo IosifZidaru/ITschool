@@ -37,9 +37,9 @@ public class SwitchStatment {
 
 
 
-     private static void printDayOFWeekSimpleEdition[]{
+     private static void printDayOFWeekSimpleEdition () {
         Scanner input = new Scanner(System.in);
-        System.out.println("insert 1-45 numarul zilei);
+        System.out.println ( "insert 1 - 45 numarul zilei");
         int day = input.nextInt();
 
         switch (day) {
@@ -52,15 +52,13 @@ public class SwitchStatment {
     }
 
 
-
-
-
-
-
-    private  static void printGrdade[]{
+    private static void printGrdade ( ) {
             Scanner input =new Scanner(System.in);
         System.out.println("inserati o nota de la a la d");
-        char grade = input.nextLine().toUpperCase(),charAT(0);
+        String grade = input.nextLine().toUpperCase();
+        int i = 0;
+
+
 
         switch (grade){
             case "A" -> System.out.println("bravo");
